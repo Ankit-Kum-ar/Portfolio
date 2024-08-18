@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import bg from "./assets/background.png"
 import Header from "./components/Header"
-import Home from "./pages/Home"
+import Home from "./pages/Home/Home"
 function App() {
 
   return (
