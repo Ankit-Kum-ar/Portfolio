@@ -9,7 +9,7 @@ const Header = () => {
     const [hidden, setHidden] = useState(true);
     
     return (
-        <nav className="bg-black bg-opacity-20 md:px-10 mt-1 border-black rounded-2xl">
+        <nav className="bg-black bg-opacity-20 md:px-12 mt-1 border-black rounded-2xl">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
                 <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src={logo} className="h-8" alt="Portfolio Logo" />
@@ -48,20 +48,11 @@ const Header = () => {
                         </li>
                     </ul>
                 </div>
-
-                {/* <div id='nav-links' className={` ${hidden ? "hidden" : ""} items-end justify-end w-full md:flex md:w-auto md:order-2`}>
-                    <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
-                        <li>
-                            <NavLink to="/movies/popular" className={({isActive}) => isActive ? activeClass : inActivClass}>Popular</NavLink>
-                        </li>
-                        
-                    </ul>
-                </div> */}
-
             </div>
+
         </nav>
 
     )
 }
-// bg-black bg-opacity-20 px-6 border-black 
+
 export default Header
