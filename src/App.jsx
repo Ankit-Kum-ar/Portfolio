@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom"
 import bg from "./assets/background.png"
 import Header from "./components/Header"
 import Home from "./pages/Home/Home"
+import Footer from "./components/Footer"
 function App() {
 
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/contact" element={<Contact />} /> */}
         </Routes>
+        <Footer/>
       </div>
     </div>
   )
