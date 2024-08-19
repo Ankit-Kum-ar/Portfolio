@@ -5,7 +5,7 @@ import Home from "./pages/Home/Home"
 function App() {
 
   return (
-    <div style={{ position: "relative", height: "100vh" }}>
+    <div className="h-full w-full" style={{ position: "relative"}}>
       <div className="" style={{
         backgroundImage: `url(${bg})`,
         position: "absolute",
