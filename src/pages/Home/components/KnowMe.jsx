@@ -1,6 +1,6 @@
 import React from 'react'
 import KnowMeCard from './KnowMeCard'
-import avatar from "../../../assets/Avatar.png"
+import avatar from "../../../assets/avatar.png"
 import project from "../../../assets/Project-logo.png"
 import tech from "../../../assets/Tech Stack.png"
 import book from "../../../assets/Bookshelf.png"
