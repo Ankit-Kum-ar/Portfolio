@@ -41,7 +41,7 @@ const Hero = () => {
                 href='https://drive.google.com/file/d/1vlzwbMNaT5Cq1LDdnTSX6Rt8gpEfMx-R/view?usp=sharing'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='bg-[#181818] shadow-sm shadow-[#808080] text-[#808080] hover:text-white px-6 py-2 rounded-lg mr-4'
+                className='bg-[#181818] shadow-sm shadow-[#808080] text-[#808080] hover:text-white px-6 md:text-base text-sm py-2 rounded-lg mr-4'
                 >
                 See my resume
             </a>
