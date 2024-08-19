@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className='flex flex-wrap justify-between items-center md:mt-40 mt-24'>
 
-        <div className='flex mx-auto md:hidden mb-10'>
+        <div className='flex mx-auto md:hidden mb-16 '>
          <img
             src={avatar}
             alt='profile'
@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
 
         <div className='flex flex-col md:w-5/12 w-11/12 mx-auto justify-center'>
-          <h1 className='text-[#C5C5C5] text-5xl font-bold mb-4'>
+          <h1 className='text-[#C5C5C5] text-5xl font-bold md:mb-4 mb-6'>
             I'm <span className='text-white'>Ankit Kumar</span>
           </h1>
           <p className='text-white'>
@@ -24,7 +24,7 @@ const Hero = () => {
             Currently pursuing a BTech in Computer Science, I actively contribute to various 
             projects, turning ideas into seamless digital experiences.
           </p>
-          <div className='flex items-center mt-6 ml-1 gap-6'>
+          <div className='flex items-center md:mt-6 mt-8 ml-1 gap-6'>
             <a href="https://www.linkedin.com/in/ankit-kumar-41a243240/">
               <GrLinkedin className='text-[#C5C5C5] hover:text-white cursor-pointer text-2xl mr-2 rounded-sm' />
             </a>
@@ -35,7 +35,7 @@ const Hero = () => {
               <BsTwitterX className='text-[#C5C5C5] hover:text-white cursor-pointer text-2xl mr-2 rounded-sm' />
             </a>
           </div>
-          <div className='flex mt-7'>
+          <div className='flex md:mt-7 mt-9'>
             {/* Buttons for resume and contact */}
             <a
                 href='https://drive.google.com/file/d/1vlzwbMNaT5Cq1LDdnTSX6Rt8gpEfMx-R/view?usp=sharing'
