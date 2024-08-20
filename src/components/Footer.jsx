@@ -7,7 +7,7 @@ import { BsTwitterX } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
 const Footer = () => {
   return (
-    <footer className="rounded-lg shadow m-4 md:mt-32 mt-28">
+    <footer className="rounded-lg shadow m-4 md:mt-28 mt-14">
         <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div className="sm:flex  sm:items-center sm:justify-between">
                 <Link to="/" className="md:flex hidden items-center space-x-3 rtl:space-x-reverse">
