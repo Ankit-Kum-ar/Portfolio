@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import Home from "./pages/Home/Home"
 import Footer from "./components/Footer"
 import About from "./pages/About/About"
+import ScrolltoTop from "./Helpers/ScrolltoTop"
 function App() {
 
   return (
@@ -20,6 +21,7 @@ function App() {
         zIndex: -1
       }}></div>
       <div style={{ position: "relative", padding: "20px" }}>
+        <ScrolltoTop/>
         <Header/>
         <Routes>
           <Route path="/" element={<Home />} />

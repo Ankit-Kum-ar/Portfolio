@@ -11,7 +11,7 @@ const KnowMe = () => {
         <h1 className='text-white text-4xl font-bold mb-10'>Get to know me</h1>
       </div>
       <div className='flex flex-wrap justify-center items-center gap-9'>
-        <KnowMeCard heading="About me" desc="Who I am and what I do" img={avatar}/>
+        <KnowMeCard heading="About me" desc="Who I am and what I do" img={avatar} path="/about"/>
         <KnowMeCard heading="Projects" desc="Projects and learnings" img={project}/>
       </div>
       <div className='flex flex-wrap justify-center items-center gap-9 mt-9'>
