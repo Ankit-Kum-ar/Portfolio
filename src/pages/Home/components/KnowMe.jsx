@@ -12,7 +12,7 @@ const KnowMe = () => {
       </div>
       <div className='flex flex-wrap justify-center items-center gap-9'>
         <KnowMeCard heading="About me" desc="Who I am and what I do" img={avatar} path="/about"/>
-        <KnowMeCard heading="Projects" desc="Projects and learnings" img={project}/>
+        <KnowMeCard heading="Projects" desc="Projects and learnings" img={project} path="/projects"/>
       </div>
       <div className='flex flex-wrap justify-center items-center gap-9 mt-9'>
         <KnowMeCard heading="Tech Stack" desc="The dev tools, apps, devices that I use." img={tech}/>

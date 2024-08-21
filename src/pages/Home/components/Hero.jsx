@@ -19,7 +19,7 @@ const Hero = () => {
           <h1 className='text-[#C5C5C5] text-5xl font-bold md:mb-4 mb-6'>
             I'm <span className='text-white'>Ankit Kumar</span>
           </h1>
-          <p className='text-white'>
+          <p className='text-white font-medium'>
             A passionate Frontend Developer with a knack for solving complex problems. 
             Currently pursuing a BTech in Computer Science, I actively contribute to various 
             projects, turning ideas into seamless digital experiences.
@@ -41,11 +41,11 @@ const Hero = () => {
                 href='https://drive.google.com/file/d/1vlzwbMNaT5Cq1LDdnTSX6Rt8gpEfMx-R/view?usp=sharing'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='bg-[#181818] shadow-sm shadow-[#808080] text-[#808080] hover:text-white px-6 md:text-base text-sm py-2 rounded-lg mr-4'
+                className='bg-[#181818] shadow-sm shadow-[#808080] text-[#808080] hover:text-white md:px-6 px-3 md:text-base text-sm py-2 rounded-lg mr-4'
                 >
                 See my resume
             </a>
-            <button className='bg-[#181818] shadow-sm shadow-[#808080] text-[#808080] hover:text-white px-6 py-2 rounded-lg'>
+            <button className='bg-[#181818] shadow-sm shadow-[#808080] text-[#808080] hover:text-white md:px-6 md:text-base text-sm px-3 py-2 rounded-lg'>
               Get in touch
             </button>
           </div>
