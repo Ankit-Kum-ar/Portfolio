@@ -4,7 +4,7 @@ const ProjectCard = ({project}) => {
     console.log(img);
     
     return (
-        <div className='md:w-9/12 w-11/12 md:pt-9 md:pl-9 p-5 rounded-2xl bg-[#181818]'>
+        <div className='md:w-9/12 w-11/12 md:pt-9 md:pl-9 md:pb-0 md:pr-0 p-5 rounded-2xl bg-[#181818]'>
             <div className='flex flex-wrap gap-36'>
                 <div className='flex flex-col md:w-5/12'>
 

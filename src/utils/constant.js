@@ -16,8 +16,8 @@ export const projects = [
         duration : "2 Weeks",
         site : "https://cinemate-psi.vercel.app/",
         source : "https://github.com/Ankit-Kum-ar/cinemate",
-        img : "/src/assets/Project-Images/p1.png",
-        logo : "/src/assets/Project-Images/i2.png"
+        img : '/assets/Project-Images/p1.png',
+        logo : '/assets/Project-Images/i2.png'
     },
     {
         name : "Netflix-Gemini",
@@ -26,8 +26,8 @@ export const projects = [
         duration : "1 month",
         site : "https://netflix-mu-one.vercel.app/",
         source : "https://github.com/Ankit-Kum-ar/netflix",
-        img : "/src/assets/Project-Images/p2.png",
-        logo : "/src/assets/Project-Images/i1.png"
+        img : '/assets/Project-Images/p2.png',
+        logo : '/assets/Project-Images/i1.png'
     },
     {
         name : "Restaurant-App",
@@ -36,8 +36,8 @@ export const projects = [
         duration : "1 month",
         site : "https://restaurant-app-self.vercel.app/",
         source : "https://github.com/Ankit-Kum-ar/Restaurant-App",
-        img : "/src/assets/Project-Images/p3.png",
-        logo : "/src/assets/Project-Images/i3.png"
+        img : '/assets/Project-Images/p3.png',
+        logo : '/assets/Project-Images/i3.png'
     },
     {
         name : "TaskMate",
@@ -46,7 +46,7 @@ export const projects = [
         duration : "1 Week",
         site : "https://task-mate-flax.vercel.app/",
         source : "https://github.com/Ankit-Kum-ar/TaskMate",
-        img : "/src/assets/Project-Images/p4.png",
-        logo : "/src/assets/Project-Images/i2.png"
+        img : '/assets/Project-Images/p4.png',
+        logo : '/assets/Project-Images/i2.png'
     }
 ]
