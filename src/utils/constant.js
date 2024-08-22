@@ -50,3 +50,111 @@ export const projects = [
         logo : '/assets/Project-Images/i2.png'
     }
 ]
+
+export const stack = [
+    {
+        name : "HTML",
+        img : "/assets/Tech-Stack/html.png",
+        type : "Language",
+    },
+    {
+        name : "CSS",
+        img : "/assets/Tech-Stack/css.png",
+        type : "Language",
+    },
+    {
+        name : "JavaScript",
+        img : "/assets/Tech-Stack/js.png",
+        type : "Language",
+    },
+    {
+        name : "TypeScript",
+        img : "/assets/Tech-Stack/ts.png",
+        type : "Language",
+    },
+    {
+        name : "React",
+        img : "/assets/Tech-Stack/react.png",
+        type : "Library",
+    },
+    {
+        name : "Redux",
+        img : "/assets/Tech-Stack/redux.png",
+        type : "Library",
+    },
+    {
+        name : "Tailwind CSS",
+        img : "/assets/Tech-Stack/tailwind.png",
+        type : "CSS",
+    },
+    {
+        name : "Material UI",
+        img : "/assets/Tech-Stack/materialui.png",
+        type : "Framework",
+    },
+    {
+        name : "Bootstrap",
+        img : "/assets/Tech-Stack/bootstrap.png",
+        type : "CSS",
+    },
+    {
+        name : "Figma",
+        img : "/assets/Tech-Stack/figma.png",
+        type : "Design",
+    },
+    {
+        name : "Vercel",
+        img : "/assets/Tech-Stack/vercel.png",
+        type : "Deployment",
+    },
+    {
+        name : "Github",
+        img : "/assets/Tech-Stack/github.png",
+        type : "Version Control",
+    },
+    {
+        name : "Firebase",
+        img : "/assets/Tech-Stack/firebase.png",
+        type : "Database",
+    },
+    {
+        name : "VS Code",
+        img : "/assets/Tech-Stack/vscode.png",
+        type : "Editor"
+    },
+    {
+        name : "Notion",
+        img : "/assets/Tech-Stack/notion.png",
+        type : "Documentation"
+    },
+    {
+        name : "ChatGPT",
+        img : "/assets/Tech-Stack/chatgpt.png",
+        type : "Productivity"
+    },
+    {
+        name : "Copilot",
+        img : "/assets/Tech-Stack/copilot.png",
+        type : "Productivity"
+    },
+    {
+        name : "Discord",
+        img : "/assets/Tech-Stack/discord.png",
+        type : "Communication"
+    },
+    {
+        name : "Chrome",
+        img : "/assets/Tech-Stack/chrome.png",
+        type : "Browser"
+    },
+    {
+        name : "Youtube",
+        img : "/assets/Tech-Stack/youtube.png",
+        type : "Learning"
+    },
+    {
+        name : "Spotify",
+        img : "/assets/Tech-Stack/spotify.png",
+        type : "Music"
+    },
+]
