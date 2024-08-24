@@ -1,5 +1,5 @@
 import React from 'react'
-import bt from "../../../assets/Button-icons/B-1.png"
+import ContactButton from '../../../components/ContactButton'
 const HomeContact = () => {
   return (
     <div className='flex flex-wrap md:mt-36 mt-28'>
@@ -8,10 +8,7 @@ const HomeContact = () => {
             <p className='text-[#808080] font-medium'>Want to discuss an opportunity to create something great? I’m ready when you are.</p>
         </div>
         <div className='flex mr-auto justify-center items-center'>
-            <button className='bg-[#151515] hover:text-[#808080] text-white md:text-base text-sm font-semibold md:px-6 px-16 py-3  rounded-xl mt-6 md:ml-4 ml-6'>
-                <img src={bt} alt='' className='w-5 h-5 inline-block mr-2 mb-1'/>
-                Get in touch
-            </button>
+            <ContactButton/>
         </div>
     </div>
   )

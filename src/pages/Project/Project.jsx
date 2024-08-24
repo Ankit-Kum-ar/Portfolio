@@ -1,11 +1,11 @@
 import React from 'react'
-import ProjectTitle from './components/ProjectTitle'
 import ProjectContainer from './components/ProjectContainer'
+import Title from '../../components/Title'
 
 const Project = () => {
   return (
     <div>
-      <ProjectTitle/>
+      <Title title='Projects' info='A collection of my work'/>
       <ProjectContainer/>
     </div>
   )

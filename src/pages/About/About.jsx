@@ -1,11 +1,11 @@
 import React from 'react'
-import AboutTitle from './components/AboutTitle'
 import AboutDescription from './components/AboutDescription'
+import Title from '../../components/Title'
 
 const About = () => {
   return (
     <div>
-      <AboutTitle/>
+      <Title title='A little bit about me' info='Who am I and what I do'/>
       <AboutDescription/>
     </div>
   )

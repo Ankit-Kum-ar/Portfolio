@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import logo from "../assets/logo.png"
+import logo from "../../assets/logo.png"
 
 const Header = () => {
     const activeClass = "block py-2 px-3 text-white bg-gray-600 rounded-xl md:bg-transparent md:text-gray-600 md:p-0 ";
@@ -44,7 +44,7 @@ const Header = () => {
                             <NavLink to="/techstack" className={({isActive}) => isActive ? activeClass : inActivClass}>Tech Stack</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/shows" className={({isActive}) => isActive ? activeClass : inActivClass}>Contact</NavLink>
+                            <NavLink to="/contact" className={({isActive}) => isActive ? activeClass : inActivClass}>Contact</NavLink>
                         </li>
                     </ul>
                 </div>
