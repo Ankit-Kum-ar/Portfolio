@@ -15,7 +15,7 @@ const KnowMe = () => {
         <KnowMeCard heading="Projects" desc="Projects and learnings" img={project} path="/projects"/>
       </div>
       <div className='flex flex-wrap justify-center items-center gap-9 mt-9'>
-        <KnowMeCard heading="Tech Stack" desc="The dev tools, apps, devices that I use." img={tech}/>
+        <KnowMeCard heading="Tech Stack" desc="The dev tools, apps, devices that I use." img={tech} path="techstack"/>
         <KnowMeCard heading="Bookshelf" desc="Piece of wisdom and fiction I've enjoyed reading" img={book} />
       </div>
     </div>
