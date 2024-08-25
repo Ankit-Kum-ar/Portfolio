@@ -158,3 +158,9 @@ export const stack = [
         type : "Music"
     },
 ]
+
+export const emailServiceConfig = {
+    service_id : import.meta.env.VITE_EMAILJS_SERVICE_ID,
+    template_id : import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+    user_id : import.meta.env.VITE_EMAILJS_USER_ID,
+}
