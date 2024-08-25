@@ -31,9 +31,9 @@ const Footer = () => {
                         </a>
                     </li>
                     <li>
-                        <Link to="">
-                                <IoMdMail className='text-[#C5C5C5] hover:text-white cursor-pointer text-3xl mr-7 rounded-sm' />
-                        </Link>
+                        <a href="mailto: ankitcode2511@gmail.com">
+                            <IoMdMail className='text-[#C5C5C5] hover:text-white cursor-pointer text-3xl mr-7 rounded-sm' />
+                        </a>
                     </li>
                 </ul>
             </div>
