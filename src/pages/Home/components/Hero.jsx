@@ -3,7 +3,12 @@ import avatar from "../../../assets/new-profile.png"
 import { GrLinkedin } from "react-icons/gr";
 import { BsGithub } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
+import { useNavigate } from 'react-router-dom';
 const Hero = () => {
+  const navigate = useNavigate();
+  const handleContact = () => {
+    navigate('/contact');
+  }
   return (
     <div className='flex flex-wrap justify-between items-center md:mt-40 mt-24'>
 
@@ -45,7 +50,7 @@ const Hero = () => {
                 >
                 See my resume
             </a>
-            <button className='bg-[#181818] shadow-sm shadow-[#808080] text-[#808080] hover:text-white md:px-6 md:text-base text-sm px-3 py-2 rounded-lg'>
+            <button onClick={handleContact} className='bg-[#181818] shadow-sm shadow-[#808080] text-[#808080] hover:text-white md:px-6 md:text-base text-sm px-3 py-2 rounded-lg'>
               Get in touch
             </button>
           </div>
