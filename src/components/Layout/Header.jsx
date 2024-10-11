@@ -10,13 +10,13 @@ const Header = () => {
     
     return (
         <nav className="bg-black bg-opacity-20 md:px-12 mt-1 border-black rounded-2xl">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+            <div className="max-w-screen-xl flex flex-wrap items-center md:justify-between justify-center mx-auto p-2">
                 <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src={logo} className="h-8" alt="Portfolio Logo" />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">ΛПKIƬ</span>
                 </Link>
 
-                <div id='mobile-nav' className="flex md:order-2">
+                <div id='mobile-nav' className="flex md:order-2 max-lg:hidden">
                     <button data-collapse-toggle="navbar-search" onClick={() => setHidden(!hidden)} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>
                         {

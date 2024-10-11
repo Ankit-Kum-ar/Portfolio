@@ -8,6 +8,8 @@ import TechStack from "./pages/Tech Stack/TechStack"
 import Header from "./components/Layout/Header"
 import Footer from "./components/Layout/Footer"
 import Contact from "./pages/Contact/Contact"
+import MoblieNavbar from "./components/Layout/MoblieNavbar"
+
 
 function App() {
 
@@ -27,6 +29,7 @@ function App() {
       <div style={{ position: "relative", padding: "20px" }}>
         <ScrolltoTop/>
         <Header/>
+        <MoblieNavbar/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
