@@ -10,7 +10,7 @@ const Hero = () => {
     navigate('/contact');
   }
   return (
-    <div className='flex flex-wrap justify-between items-center md:mt-40 mt-24'>
+    <div className='flex flex-wrap justify-between items-center md:mt-40 mt-20'>
 
         <div className='flex mx-auto md:hidden mb-16 '>
          <img
