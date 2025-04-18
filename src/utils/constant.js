@@ -1,12 +1,22 @@
 export const user = {
-    introduction : {
-        para1 : "Hello! I'm Ankit Kumar, a front-end developer with a passion for creating visually striking and user-friendly websites. With expertise in React, Redux, and Tailwind CSS, I focus on building responsive web applications that offer a seamless user experience. Currently completing my BTech in Computer Science and Engineering from Delhi, India, I stay updated on the latest industry trends and continuously sharpen my skills. When I'm not coding, I enjoy anime, manga, and reading self-growth books. I'm excited to bring my creativity and technical know-how to a forward-thinking tech company, ready to contribute to innovative digital projects.",
+    introduction: {
+        para1: "Hi, I’m <b>Ankit Kumar</b>, a skilled <b>Full Stack Developer</b> specializing in the <b>MERN stack</b>. With expertise in <b>React</b>, <b>Node.js</b>, <b>MongoDB</b>, and <b>Express.js</b>, I create scalable, user-focused web applications. Currently pursuing a <b>BTech in Computer Science</b>, I’ve built impactful projects like <b>Netflix-Gemini</b> and <b>DevTinder</b>, showcasing my ability to deliver innovative solutions.",
     },
 
-    whatIDo : {
-        para1 : "While front-end development is my primary focus, I have a solid grasp of backend technologies, giving me a comprehensive view of how different layers of web applications work together. This allows me to collaborate smoothly with backend teams, ensuring a cohesive, optimized final product. As I prepare for college placements, I am excited to join a dynamic tech company where I can apply my skills, creativity, and passion for building innovative solutions. I’m eager to work on impactful projects, learn from experienced professionals, and contribute to meaningful digital experiences.",
+    whatIDo: {
+        points: [
+            "<b>Full Stack Development:</b> Building scalable web apps with the MERN stack.",
+            "<b>Frontend:</b> Crafting responsive UIs with React, Redux, and Tailwind CSS.",
+            "<b>Backend:</b> Developing robust APIs with Node.js, Express.js, and MongoDB.",
+            "<b>Key Projects:</b>",
+            "<ul class='list-disc ml-5'>" +
+                "<li><b>Netflix-Gemini:</b> A movie platform with secure authentication for users.</li>" +
+                "<li><b>DevTinder:</b> A developer matchmaking app with a modern UI and 30% performance boost.</li>" +
+                "<li><b>RefineDash:</b> A task management system improving engagement by 20%.</li>" +
+            "</ul>",
+        ],
     },
-}
+};
 
 export const projects = [
     {
@@ -83,6 +93,31 @@ export const stack = [
         type : "Library",
     },
     {
+        name: "Zustand",
+        img: "/assets/Tech-Stack/Zustand.png",
+        type: "Global State"
+    },
+    {
+        name : "Node.js",
+        img : "/assets/Tech-Stack/nodejs.png",
+        type : "Runtime",
+    },
+    {
+        name : "Express.js",
+        img : "/assets/Tech-Stack/express.png",
+        type : "Framework",
+    },
+    {
+        name : "MongoDB",
+        img : "/assets/Tech-Stack/mongodb.png",
+        type : "Database",
+    },
+    {
+        name : "Postman",
+        img : "/assets/Tech-Stack/postman.png",
+        type : "API Testing",
+    },
+    {
         name : "Tailwind CSS",
         img : "/assets/Tech-Stack/tailwind.png",
         type : "CSS",
@@ -90,6 +125,11 @@ export const stack = [
     {
         name : "Material UI",
         img : "/assets/Tech-Stack/materialui.png",
+        type : "Framework",
+    },
+    {
+        name : "Shadcn UI",
+        img : "/assets/Tech-Stack/shadcnui.png",
         type : "Framework",
     },
     {

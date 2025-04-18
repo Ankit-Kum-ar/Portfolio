@@ -2,7 +2,7 @@ import React from 'react'
 import sign from "../../../assets/sign.png"
 const Signature = () => {
   return (
-    <div>
+    <div className='md:hidden block'>
         <p className='text-[#a5a5a5] text-lg font-medium mt-16'>
             Feel free to reach out via &nbsp;
             <a href="mailto: ankitcode2511@gmail.com">

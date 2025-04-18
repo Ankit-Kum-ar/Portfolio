@@ -1,51 +1,63 @@
-import React from 'react'
-import { user } from '../../../utils/constant'
-import profile from '../../../assets/new-profile.png'
-import Signature from './Signature'
-import ContactButton from '../../../components/ContactButton'
+import React from 'react';
+import { user } from '../../../utils/constant';
+import profile from '../../../assets/new-profile.jpg';
+import Signature from './Signature';
+import ContactButton from '../../../components/ContactButton';
+
 const AboutDescription = () => {
   return (
     <div className='mt-16'>
       <div className='flex flex-wrap'>
+        {/* Mobile Profile Picture */}
         <div className='flex mx-auto md:hidden mb-16 '>
-         <img
+          <img
             src={profile}
             alt='profile'
             className='rounded-full w-64 h-64 filter grayscale-0 hover:grayscale transition duration-300 ease-in-out'
           />
         </div>
 
+        {/* Introduction and What I Do */}
         <div className='flex flex-col md:w-6/12 w-11/12 mx-auto left-0 gap-10'>
-            <div className='flex flex-col'>
-                <h1 className='text-xl text-white font-bold mb-2'>Who am I?</h1>
-                <p className='text-[#a5a5a5] text-lg font-medium mb-2'>{user.introduction.para1}</p>
-            </div>
+          {/* Who am I Section */}
+          <div className='flex flex-col'>
+            <h1 className='text-xl text-white font-bold mb-2'>Who am I?</h1>
+            <p
+              className='text-[#a5a5a5] text-lg font-medium mb-2'
+              dangerouslySetInnerHTML={{ __html: user.introduction.para1 }}
+            ></p>
+          </div>
 
-            <div className='flex flex-col'>
-                <h1 className='text-xl text-white font-bold mb-2'>What I do?</h1>
-                <p className='text-[#a5a5a5] text-lg font-medium mb-2'>{user.whatIDo.para1}</p>
-                <Signature/>
-            </div>
-
+          {/* What I Do Section */}
+          <div className='flex flex-col'>
+            <h1 className='text-xl text-white font-bold mb-2'>What I do?</h1>
+            <ul className='text-[#a5a5a5] text-lg font-medium mb-2 list-disc ml-5'>
+              {user.whatIDo.points.map((point, index) => (
+                <li
+                  key={index}
+                  dangerouslySetInnerHTML={{ __html: point }}
+                  className={index === user.whatIDo.points.length - 1 ? 'list-none' : ''}
+                ></li>
+              ))}
+            </ul>
+            <Signature />
+          </div>
         </div>
 
-        {/* for profile picture */}
-
+        {/* Desktop Profile Picture */}
         <div className='md:flex flex-col gap-9 mr-auto hidden'>
           <img
             src={profile}
             alt='profile'
             className='rounded-full mt-20 w-80 h-80 filter grayscale-0 hover:grayscale transition duration-300 ease-in-out'
           />
-            <div className='flex mx-auto justify-center items-center'>
-              <ContactButton/>
-            </div>
+          <div className='flex mx-auto justify-center items-center'>
+            <ContactButton />
+          </div>
         </div>
-
-        
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default AboutDescription
+export default AboutDescription;

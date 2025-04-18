@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar from "../../../assets/new-profile.png"
+import avatar from "../../../assets/new-profile.jpg"
 import { GrLinkedin } from "react-icons/gr";
 import { BsGithub } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
@@ -25,9 +25,9 @@ const Hero = () => {
             I'm <span className='text-white'>Ankit Kumar</span>
           </h1>
           <p className='text-white font-medium'>
-            A passionate Frontend Developer with a knack for solving complex problems. 
+            A passionate Full Stack Developer specializing in the MERN stack, with a knack for solving complex problems. 
             Currently pursuing a BTech in Computer Science, I actively contribute to various 
-            projects, turning ideas into seamless digital experiences.
+            projects, turning ideas into seamless and scalable digital experiences.
           </p>
           <div className='flex items-center md:mt-6 mt-8 ml-1 gap-6'>
             <a href="https://www.linkedin.com/in/ankit-kumar-41a243240/">
@@ -43,7 +43,7 @@ const Hero = () => {
           <div className='flex md:mt-7 mt-9'>
             {/* Buttons for resume and contact */}
             <a
-                href='https://drive.google.com/file/d/1vlzwbMNaT5Cq1LDdnTSX6Rt8gpEfMx-R/view?usp=sharing'
+                href='https://drive.google.com/file/d/1wH7w2rV6s8tldH7kWN4tHHEHpJEiV3I9/view?usp=sharing'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='bg-[#181818] shadow-sm shadow-[#808080] text-[#808080] hover:text-white md:px-6 px-3 md:text-base text-sm py-2 rounded-lg mr-4'
